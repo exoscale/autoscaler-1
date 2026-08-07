@@ -27,7 +27,7 @@ jobs:
           path: base
 
       - name: Set up Go
-        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
         with:
           go-version-file: pr/cluster-autoscaler/go.mod
           cache-dependency-path: pr/cluster-autoscaler/go.sum
