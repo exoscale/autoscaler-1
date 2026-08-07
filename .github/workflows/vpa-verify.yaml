@@ -27,7 +27,7 @@ jobs:
           path: ${{ env.GOPATH }}/src/k8s.io/autoscaler
 
       - name: Set up Go
-        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
         with:
           go-version-file: '${{ env.GOPATH}}/src/k8s.io/autoscaler/vertical-pod-autoscaler/go.mod'
           cache-dependency-path: |
